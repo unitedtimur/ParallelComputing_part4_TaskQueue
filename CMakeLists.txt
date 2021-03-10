@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(PROJECT "Queue_Tasks")
+set(PROJECT "Task_Queue")
 
 project(${PROJECT})
 
