@@ -13,7 +13,7 @@ public:
     explicit Task_Queue(const Task_Queue&) = delete;
     Task_Queue& operator=(const Task_Queue&) = delete;
 
-    Task_Queue();
+    explicit Task_Queue();
     ~Task_Queue() noexcept ;
 
     void add(const std::function<void ()>& task);
